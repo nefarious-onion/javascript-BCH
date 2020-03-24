@@ -1,0 +1,21 @@
+body {
+    height: 50000px;
+}
+
+/* give elements fixed positioning so they
+wont be affected by vertical scrolling */
+img,
+#background {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    background-image: url('../assets/images/bg.png');
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    background-size: auto 100%;
+}
